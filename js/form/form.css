@@ -1,0 +1,135 @@
+/*----------Box - Página----------*/
+#box-form, #box-contatos {
+	margin:30px 0;
+}
+form {
+	margin-top:0px;
+	width:100%;
+	display:table;
+}
+
+form label, form legend {
+    float: left;
+    font-weight: bold;
+    margin: 17px 15px 0;
+    text-align: right;
+    width:100px;
+}
+
+form input[type="text"],form input[type="password"], form input[type="file"], form textarea {
+	background:#79685B;
+	border:1px solid #79685B;
+	width:79%;
+	margin:13px 0 -4px;
+	padding:3px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+	-webkit-box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+	box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+	float:left;
+	color:#fff
+}
+form textarea {
+	height:100px;
+}
+form input[type="submit"], form input[type="button"] {
+	background:#79685B;
+	border:1px solid #79685B;
+    border-radius: 4px 4px 4px 4px;
+	color:#FFF;
+    -moz-box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+	-webkit-box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+	box-shadow:rgba(0,0,0,.5) 0 3px 5px inset;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 15px;
+    padding-bottom: 2px;
+    width: 93px;
+}
+form input[type="text"]:focus, form input[type="password"]:focus, form textarea:focus, form input[type="submit"]:focus {
+	box-shadow:#EAAC4A 0 0 2px;
+}
+form input[type="text"]:hover, form input[type="password"]:hover, form textarea:hover, form input[type="submit"]:hover {
+	box-shadow:#EAAC4A 0 0 2px;
+}
+
+/*Config-A mais*/
+form .col-esq, form .col-dir {
+	border:0px dotted #9E6C02;
+    padding-left: 3px;
+    width: 322px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	padding-bottom:30px;
+}
+
+form .col-esq label, form .col-dir label {
+	width:100%;
+	margin:0px;
+	margin-top:15px;
+	text-align:left;
+}
+
+form .col-esq legend, form .col-dir legend,
+form .col-esq .legenda, form .col-dir .legenda {
+	font-size:22px;
+    width:200px;
+	color:#96845f;
+	font-family:'Myriad Pro';
+	margin-left:0px;
+	text-align:left;
+}
+
+form .col-esq input[type="text"],form .col-esq input[type="password"], form .col-esq input[type="file"], form .col-esq textarea,
+form .col-dir input[type="text"],form .col-dir input[type="password"], form .col-dir input[type="file"], form .col-dir textarea, form select {
+	width:94%;
+	margin-top:2px;
+}
+
+form .col-esq .link, form .col-dir .link {
+	float:left;
+	margin-top:10px;
+}
+
+form .col-esq span, form .col-dir span {
+	float: right;
+    margin-top: 5px;
+    width: 213px;
+}
+
+form .col-esq .box-passo {
+	margin-top: 13px;
+    padding-left: 5px;
+    width: 200px;
+	background:#E3EBAC;
+}
+
+form .col-esq .box-passo span {
+	float:left;
+	font-size:18px;
+}
+
+form .col-dir input[type="submit"], form .col-dir input[type="button"] {
+    margin-top: 35px;
+	margin-right:12px;
+}
+
+form .btSimular, form .btContinuar, form .btFinalizar {
+	margin-right:10px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+

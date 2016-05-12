@@ -1,0 +1,83 @@
+#hiddendiv {
+	margin-top:12px;
+	float:left;
+}
+
+div.selectbox-wrapper {
+    position:absolute;
+    width:400px;
+    background-color:white;
+    border:1px solid #ccc;
+    margin:0px;
+    margin-top:25px;
+    padding:0px;
+    font-size:12px;
+    text-align:left;
+    height:200px;
+   overflow: auto;
+   margin-left:2px;
+   color:#999;
+   z-index:1000;
+}
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+div.selectbox-wrapper ul li.selected { 
+  background-color: #999;
+  color:#FFF;
+}
+div.selectbox-wrapper ul li.current { 
+  background-color: #ccc;
+}
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  cursor:pointer;
+}
+
+.selectbox /* look&fell of  select box*/
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  display : block;
+  text-align:left; 
+  background:#000 url('bg-select.png') no-repeat right;
+  cursor: pointer;
+  border:1px solid #5F889F;
+  color:#999;
+  padding-top:3px;
+  padding-bottom:3px;  
+}
+
+
+.selectbox2 /* look&fell of  select box*/
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  display : block;
+  text-align:left; 
+  background:#000 url('bg-select.png') no-repeat right;
+  cursor: pointer;
+  border:1px solid #5F889F;
+  color:#999;
+  padding-top:3px;
+  padding-bottom:3px;  
+}
+
+.selectbox3 /* look&fell of  select box*/
+{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size:13px;
+  display : block;
+  text-align:left; 
+  background:#000 url('bg-select.png') no-repeat right;
+  cursor: pointer;
+  border:1px solid #5F889F;
+  color:#999;
+  padding-top:3px;
+  padding-bottom:3px;  
+}
